@@ -21,7 +21,8 @@ Clone the repository and install dependencies:
 git clone https://github.com/navya913/Pulse-AI-Module-Extraction.git
 cd pulse
 pip install -r requirements.txt
-'''
+
+---
 
 ##⚙️ Usage
 📟 Command Line Interface
@@ -37,6 +38,9 @@ python module_extractor.py --urls https://help.instagram.com https://help.exampl
         "Privacy Settings": "Details options for controlling account visibility."
     }
 }
+
+---
+
 ##🧪 Testing & Benchmarking
 Successfully tested on:
 
@@ -50,6 +54,8 @@ Zluri Help
 
 Chargebee Docs
 
+---
+
 ##🧬 Technical Architecture
 🔧 Key Components
 URL Crawler – Smart link traversal with rate-limiting
@@ -59,6 +65,8 @@ Content Parser – Extracts and cleans DOM content using NLP
 Hierarchy Detector – Infers structure from headers and sectioning
 
 Description Generator – Uses extractive summarization for clarity
+
+---
 
 ##📦 Dependencies
 beautifulsoup4 – HTML parsing
