@@ -24,7 +24,7 @@ pip install -r requirements.txt
 ```
 ---
 
-##⚙️ **Usage**
+##⚙️ __Usage__
 📟 Command Line Interface
 bash
 python module_extractor.py --urls https://help.instagram.com https://help.example.com
