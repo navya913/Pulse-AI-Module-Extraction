@@ -21,7 +21,7 @@ Clone the repository and install dependencies:
 git clone https://github.com/navya913/Pulse-AI-Module-Extraction.git
 cd pulse
 pip install -r requirements.txt
-
+```
 ---
 
 ##⚙️ Usage
