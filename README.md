@@ -22,11 +22,11 @@ git clone https://github.com/navya913/Pulse-AI-Module-Extraction.git
 cd pulse
 pip install -r requirements.txt
 
-⚙️ Usage
+##⚙️ Usage
 📟 Command Line Interface
 bash
 python module_extractor.py --urls https://help.instagram.com https://help.example.com
-🧾 Output Format
+##🧾 Output Format
 
 {
     "module": "Account Settings",
@@ -36,7 +36,7 @@ python module_extractor.py --urls https://help.instagram.com https://help.exampl
         "Privacy Settings": "Details options for controlling account visibility."
     }
 }
-🧪 Testing & Benchmarking
+##🧪 Testing & Benchmarking
 Successfully tested on:
 
 Instagram Help
@@ -49,7 +49,7 @@ Zluri Help
 
 Chargebee Docs
 
-🧬 Technical Architecture
+##🧬 Technical Architecture
 🔧 Key Components
 URL Crawler – Smart link traversal with rate-limiting
 
@@ -59,7 +59,7 @@ Hierarchy Detector – Infers structure from headers and sectioning
 
 Description Generator – Uses extractive summarization for clarity
 
-📦 Dependencies
+##📦 Dependencies
 beautifulsoup4 – HTML parsing
 
 requests – Web requests
