@@ -24,7 +24,7 @@ pip install -r requirements.txt
 ```
 ---
 
-##⚙️ __Usage__
+**⚙️ __Usage__**
 📟 Command Line Interface
 bash
 python module_extractor.py --urls https://help.instagram.com https://help.example.com
@@ -41,7 +41,7 @@ python module_extractor.py --urls https://help.instagram.com https://help.exampl
 
 ---
 
-##🧪 **Testing & Benchmarking**
+**🧪 **Testing & Benchmarking****
 Successfully tested on:
 
 Instagram Help
@@ -56,7 +56,7 @@ Chargebee Docs
 
 ---
 
-##🧬 **Technical Architecture**
+**🧬 **Technical Architecture****
 🔧 Key Components
 URL Crawler – Smart link traversal with rate-limiting
 
@@ -68,7 +68,7 @@ Description Generator – Uses extractive summarization for clarity
 
 ---
 
-##📦 **Dependencies**
+**📦 **Dependencies****
 beautifulsoup4 – HTML parsing
 
 requests – Web requests
